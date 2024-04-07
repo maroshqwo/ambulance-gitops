@@ -4,5 +4,5 @@ metadata:
   name: ambulance-webapi
   namespace: wac-hospital
 spec:
-  image: martinrapcan/ambulance-wl-webapi
+  image: maroshqwo/ambulance-wl-webapi
   interval: 1m0s

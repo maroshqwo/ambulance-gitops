@@ -12,3 +12,10 @@ resources:
   - ../../../apps/mky-ambulance-ufe
   - ../../../apps/mky-ambulance-webapi
   - ../../../apps/mongo-express
+
+components:
+  - ../../../components/version-developers
+  - https://github.com/maroshqwo/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml

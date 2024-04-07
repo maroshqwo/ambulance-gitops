@@ -10,3 +10,5 @@ commonLabels:
 
 resources:
   - ../../../apps/mky-ambulance-ufe
+  - ../../../apps/mky-ambulance-webapi
+  - ../../../apps/mongo-express

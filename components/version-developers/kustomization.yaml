@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+images:
+  - name: maroshqwo/ambulance-ufe
+    newName: maroshqwo/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+    newTag: main.20240311.1053 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  - name: maroshqwo/ambulance-wl-webapi
+    newName: maroshqwo/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newTag: main.20240318.1123 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  - name: milung/ufe-controller
+    newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
+    newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}

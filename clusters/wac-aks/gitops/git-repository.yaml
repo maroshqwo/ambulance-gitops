@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  timeout: 1m0s
+  timeout: 10m0s
   url: https://github.com/maroshqwo/ambulance-gitops
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 # secretRef:

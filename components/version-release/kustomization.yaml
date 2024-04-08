@@ -3,10 +3,10 @@ kind: Component
 images:
   - name: maroshqwo/ambulance-ufe
     newName: maroshqwo/ambulance-ufe
-    newTag: 1.1.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.0.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: maroshqwo/ambulance-wl-webapi
     newName: maroshqwo/ambulance-wl-webapi
-    newTag: 1.1.0
+    newTag: 1.0.0
 
 replacements:
   - targets:
